@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Job Application Form</title>
+    <link rel="stylesheet" type="text/css" href="../cssCodes/mystyle.css" />
+  </head>
+  <body>
+    <h1 align="center">Job Application Form</h1>
+    <hr />
+    <form align="center" enctype="multipart" method="get">
+      <table align="center" width="60%" height="100%">
+        <tr>
+          <td>Full Name</td>
+          <td align="left">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              maxlength="50"
+              required
+            />
+            <br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Job Title</td>
+          <td align="left">
+            <input type="text" placeholder="Enter your job title" required />
+            <br /><br />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Current Company</td>
+          <td align="left">
+            <input type="text" placeholder="Enter your company name" required />
+            <br /><br />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Contact Number</td>
+          <td align="left">
+            <select name="number">
+              <option value="+91">+91 India</option>
+              <option value="+61">+61 Australia</option>
+              <option value="+86">+86 China</option>
+              <option value="+44">+44 UK</option>
+              <option value="+1">+1 USA</option>
+            </select>
+            <input type="text" placeholder="Enter you number" maxlength="10" />
+            <br /><br />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Email</td>
+          <td align="left">
+            <label for="youremail"></label>
+            <input
+              type="email"
+              id="youremail"
+              placeholder="Enter your email"
+              required
+            /><br /><br />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>Work Status</td>
+          <td align="left">
+            <input type="radio" name="work" />Full Time
+            <input type="radio" name="work" />Part Time
+            <input type="radio" name="work" />Per Dim
+            <input type="radio" name="work" />Others
+          </td>
+        </tr>
+        <tr>
+          <td>Salary</td>
+          <td align="left">
+            <input type="text" placeholder="Salary" />
+            <select name="currency">
+              <option value="rupees">Rupees</option>
+              <option value="dollar">Dollar</option>
+              <option value="euro">Euro</option>
+              <option value="pounds">Pounds</option>
+              <option value="dinar">Dinar</option>
+            </select>
+            <select name="timing">
+              <option vvalue="yearly">Yearly</option>
+              <option value="monthly">Monthly</option>
+            </select>
+            <br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Experience</td>
+          <td align="left">
+            <input
+              type="text"
+              placeholder="Enter your experience in months"
+              required
+            /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Current Location</td>
+          <td align="left">
+            <input
+              type="text"
+              placeholder="Enter your current location"
+              required
+            /><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Permanenet Address</td>
+          <td align="left">
+            <textarea
+              rows="3"
+              cols="30"
+              placeholder="Enter permanenet Address"
+              required
+            ></textarea
+            ><br /><br />
+          </td>
+        </tr>
+        <tr>
+          <td>Upload Resume</td>
+          <td align="left"><input type="file" /><br /><br /><br /></td>
+        </tr>
+        <tr>
+          <td align="right"><input type="submit" /></td>
+          <td><input type="reset" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
